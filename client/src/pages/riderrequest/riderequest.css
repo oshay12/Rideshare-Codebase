@@ -1,0 +1,117 @@
+.request__square {
+  position: relative;
+  width: 90%;
+  left: 5%;
+
+  background-color: white;
+}
+
+.calculate-route {
+  position: relative;
+  left: 4%;
+}
+
+.calculate-route button {
+  width: 15%;
+  margin: 0.6rem;
+  padding: 0.5rem;
+
+  border: 1px solid black;
+  background: black;
+  opacity: 0.8;
+  border-radius: 5px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+
+.request__square h1 {
+  padding: 1rem;
+}
+
+.request__fields {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.request__fields input {
+  position: relative;
+  width: 91%;
+  left: 4%;
+  margin: 0.4rem;
+  padding: 0.5rem;
+  /* styling of color, opacity, border and corner rounding */
+  border: 1px solid black;
+  background: white;
+  border-radius: 5px;
+}
+
+.request__fields label {
+  position: relative;
+  width: 100%;
+  left: 4%;
+}
+
+.google-map {
+  position: relative;
+  width: 90%;
+  left: 5%;
+  height: 25rem;
+  border: 1px solid black;
+}
+
+.google-map button[id="middle"] {
+  position: relative;
+  top: 85%;
+  width: 15%;
+  margin: 0.6rem;
+  padding: 0.5rem;
+
+  border: 1px solid black;
+  background: black;
+  border-radius: 5px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+
+.date-picker input {
+  width: 90%;
+}
+
+.request__square button[type="submit"] {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  left: 25%;
+  margin: 0.6rem;
+  padding: 0.5rem;
+
+  border: 1px solid black;
+  background: black;
+  opacity: 0.8;
+  border-radius: 5px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}

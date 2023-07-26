@@ -1,0 +1,11 @@
+export { default as Landing } from "./landing/Landing";
+export { default as Login } from "./login/Login";
+export { default as SignUp } from "./signup/SignUp";
+export { default as DriverDashboard } from "./driverdashboard/DriverDashboard";
+export { default as DriverDetail } from "./driverdetail/DriverDetail";
+export { default as RiderDashboard } from "./riderdashboard/RiderDashboard";
+export { default as RiderDetail } from "./riderdetail/RiderDetail";
+export { default as RideRequest } from "./riderrequest/RideRequest";
+export { default as RidePosting } from "./rideposting/RidePosting";
+export { default as ContactUs } from "./contactus/ContactUs";
+export { default as ProfileSettings } from "./profilesettings/ProfileSettings";

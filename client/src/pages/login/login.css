@@ -1,0 +1,167 @@
+/* basic flex styling for entire div  */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sets display style for whole login form including email, password and login fields  */
+.login__forum form[id = 'login'] {
+    display: block;
+}
+
+/* positioning on screen for entire form  */
+.login__forum {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+
+.login__main-square {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 120%;
+    top: 0;
+    
+    z-index: -1;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25); /* lil backdrop shadow */
+}
+
+/* underlining of header  */
+.login__forum span {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.login__forum h1 {
+    /* text styling for header element of the form  */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 1rem;
+    /* display and alignment styling  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+}
+
+.login__forum form {
+    /* styling and alignment of list of elements in the form, containing email, password and continue fields  */
+    padding: 1rem;
+    padding-bottom: -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+ 
+.login__forum input {
+    width: 25%;
+    margin: 0.6rem;
+    padding: 0.5rem;
+
+
+    /* styling of color, opacity, border and corner rounding  */
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+}
+
+.login__forum input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.login__forum button {
+    width: 25%;
+    margin: 0.6rem;
+    padding: 0.5rem;
+
+    border: 1px solid black;
+    background: black;
+    opacity: 0.8;
+    border-radius: 5px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .login__forum input {
+        width: 35%;
+        margin: 0.6rem;
+        padding: 0.5rem;
+    }
+    .login__forum button {
+        width: 35%;
+        margin: 0.6rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .login__main-square {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .login__forum h1 {
+        font-size: 24px;
+    }
+    .login__forum input {
+        width: 40%;
+        margin: 0.6rem;
+        padding: 0.5rem;
+    }
+    .login__forum button {
+        width: 40%;
+        margin: 0.6rem;
+        padding: 0.5rem;
+    }
+    .login__main-square {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login__forum h1 {
+        font-size: 24px;
+    }
+    .login__forum input {
+        width: 60%;
+        margin: 0.6rem;
+        padding: 0.5rem;
+    }
+    .login__forum button {
+        width: 60%;
+        margin: 0.6rem;
+        padding: 0.5rem;
+    }
+    .login__main-square {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .login__forum h1 {
+        font-size: 18px;
+    }
+}
